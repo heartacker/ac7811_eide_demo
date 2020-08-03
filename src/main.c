@@ -7,7 +7,9 @@ int main(int argc, char const *argv[])
 {
     InitDelay();
     InitDebug();
-    printf("Hello World");
+    printf("Hello World\n");
+    printf("Welcome to the VSCode\n");
+    printf("Welcome to the EIDE\n");
     while (1)
     {
         ;

@@ -215,7 +215,7 @@
     "srcDirs": [
         ".\\dependence",
         ".\\src",
-        ".\\pack\\AutoChips\\AC781x_DFP.1.0.9\\Device"
+        ".\\Device"
     ],
     "excludeList": [],
     "outDir": ".\\out",
@@ -223,7 +223,7 @@
     "packDir": ".\\pack\\AutoChips\\AC781x_DFP.1.0.9",
     "uploadConfig": {
         "bin": ".\\out\\AC5\\ac7811_eide.hex",
-        "targetName": "cortex_m",
+        "targetName": "AC7811QBGE",
         "baseAddr": "0x08000000",
         "speed": "4M",
         "config": ".eide/pyocd.yaml"

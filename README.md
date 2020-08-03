@@ -1,4 +1,13 @@
-# 使用EIDE 开发AutoChips AC7811 车规级芯片demo
+# 使用VSCode + EIDE 开发AutoChips AC7811 车规级芯片demo
+
+## VSCode
+需要安装一下插件
+- c/c++
+- EIDE
+- Cortex-debug
+
+## EIDE
+@null 开发的一个嵌入式开发插件,支持armcc A5/A6 以及GCC 编译器.
 
 ## 编译依赖
 使用arm A5 编译器
