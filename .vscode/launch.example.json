@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "type": "cortex-debug",
+            "request": "launch",
+            "name": "cortex-debug launch",
+            "servertype": "pyocd",
+            "interface": "swd",
+            "executable": ".\\out\\AC5\\ac7811_eide.elf",
+            "runToMain": true,
+            "svdFile": ".\\pack\\AutoChips\\AC781x_DFP.1.0.9\\SVD\\AC781x.svd",
+            "device": "AC7811QBGE",
+            // special for pyocd
+            "cmsisPack": "C:\\Keil_v5\\ARM\\PACK\\.Download\\AutoChips.AC781x_DFP.1.0.9.pack",
+            "targetId": "AC7811QBGE",
+        }
+    ]
+}

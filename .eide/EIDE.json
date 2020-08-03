@@ -1,0 +1,231 @@
+{
+    "name": "ac7811_eide",
+    "type": "ARM",
+    "mode": "Debug",
+    "toolchain": "AC5",
+    "dependenceList": [
+        {
+            "groupName": "custom",
+            "depList": [
+                {
+                    "name": "default",
+                    "incList": [
+                        ".\\dependence",
+                        ".\\lib\\CMSIS"
+                    ],
+                    "libList": [],
+                    "sourceDirList": [],
+                    "defineList": []
+                }
+            ]
+        },
+        {
+            "groupName": "build-in",
+            "depList": [
+                {
+                    "name": "default",
+                    "incList": [],
+                    "libList": [],
+                    "sourceDirList": [],
+                    "defineList": [
+                        "DEBUG"
+                    ]
+                },
+                {
+                    "name": "toolchain",
+                    "incList": [
+                        "C:\\Keil_v5\\ARM\\ARMCC\\include",
+                        "C:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
+                        ".\\dependence\\build-in\\toolchain"
+                    ],
+                    "sourceDirList": [
+                        ".\\dependence\\build-in\\toolchain"
+                    ],
+                    "libList": [
+                        "C:\\Keil_v5\\ARM\\ARMCC\\lib"
+                    ],
+                    "defineList": []
+                }
+            ]
+        },
+        {
+            "groupName": "AC781x_DFP",
+            "depList": [
+                {
+                    "name": "ATCDrivers.UART",
+                    "incList": [
+                        ".\\dependence\\AC781x_DFP\\ATCDrivers.UART"
+                    ],
+                    "sourceDirList": [
+                        ".\\dependence\\AC781x_DFP\\ATCDrivers.UART"
+                    ],
+                    "libList": [],
+                    "defineList": []
+                },
+                {
+                    "name": "ATCDrivers.RTC",
+                    "incList": [
+                        ".\\dependence\\AC781x_DFP\\ATCDrivers.RTC"
+                    ],
+                    "sourceDirList": [
+                        ".\\dependence\\AC781x_DFP\\ATCDrivers.RTC"
+                    ],
+                    "libList": [],
+                    "defineList": []
+                },
+                {
+                    "name": "ATCDrivers.DMA",
+                    "incList": [
+                        ".\\dependence\\AC781x_DFP\\ATCDrivers.DMA"
+                    ],
+                    "sourceDirList": [
+                        ".\\dependence\\AC781x_DFP\\ATCDrivers.DMA"
+                    ],
+                    "libList": [],
+                    "defineList": []
+                },
+                {
+                    "name": "ATCDrivers.GPIO",
+                    "incList": [
+                        ".\\dependence\\AC781x_DFP\\ATCDrivers.GPIO"
+                    ],
+                    "sourceDirList": [
+                        ".\\dependence\\AC781x_DFP\\ATCDrivers.GPIO"
+                    ],
+                    "libList": [],
+                    "defineList": []
+                }
+            ]
+        }
+    ],
+    "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "default",
+        "useCustomScatterFile": false,
+        "scatterFilePath": "undefined",
+        "storageLayout": {
+            "RAM": [
+                {
+                    "id": 1,
+                    "isChecked": false,
+                    "mem": {
+                        "size": "",
+                        "startAddr": ""
+                    },
+                    "noInit": false,
+                    "tag": "RAM"
+                },
+                {
+                    "id": 2,
+                    "isChecked": false,
+                    "mem": {
+                        "size": "",
+                        "startAddr": ""
+                    },
+                    "noInit": false,
+                    "tag": "RAM"
+                },
+                {
+                    "id": 3,
+                    "isChecked": false,
+                    "mem": {
+                        "size": "",
+                        "startAddr": ""
+                    },
+                    "noInit": false,
+                    "tag": "RAM"
+                },
+                {
+                    "id": 1,
+                    "isChecked": true,
+                    "mem": {
+                        "size": "0x4000",
+                        "startAddr": "0x20000000"
+                    },
+                    "noInit": true,
+                    "tag": "IRAM"
+                },
+                {
+                    "id": 2,
+                    "isChecked": false,
+                    "mem": {
+                        "size": "",
+                        "startAddr": ""
+                    },
+                    "noInit": false,
+                    "tag": "IRAM"
+                }
+            ],
+            "ROM": [
+                {
+                    "id": 1,
+                    "isChecked": false,
+                    "isStartup": false,
+                    "mem": {
+                        "size": "",
+                        "startAddr": ""
+                    },
+                    "tag": "ROM"
+                },
+                {
+                    "id": 2,
+                    "isChecked": false,
+                    "isStartup": false,
+                    "mem": {
+                        "size": "",
+                        "startAddr": ""
+                    },
+                    "tag": "ROM"
+                },
+                {
+                    "id": 3,
+                    "isChecked": false,
+                    "isStartup": false,
+                    "mem": {
+                        "size": "",
+                        "startAddr": ""
+                    },
+                    "tag": "ROM"
+                },
+                {
+                    "id": 1,
+                    "isChecked": true,
+                    "isStartup": true,
+                    "mem": {
+                        "size": "0x40000",
+                        "startAddr": "0x08000000"
+                    },
+                    "tag": "IROM"
+                },
+                {
+                    "id": 2,
+                    "isChecked": false,
+                    "isStartup": false,
+                    "mem": {
+                        "size": "",
+                        "startAddr": ""
+                    },
+                    "tag": "IROM"
+                }
+            ]
+        },
+        "options": "null"
+    },
+    "uploader": "pyOCD",
+    "srcDirs": [
+        ".\\dependence",
+        ".\\src",
+        ".\\pack\\AutoChips\\AC781x_DFP.1.0.9\\Device"
+    ],
+    "excludeList": [],
+    "outDir": ".\\out",
+    "deviceName": "AC7811QBGE",
+    "packDir": ".\\pack\\AutoChips\\AC781x_DFP.1.0.9",
+    "uploadConfig": {
+        "bin": ".\\out\\AC5\\ac7811_eide.hex",
+        "targetName": "cortex_m",
+        "baseAddr": "0x08000000",
+        "speed": "4M",
+        "config": ".eide/pyocd.yaml"
+    }
+}

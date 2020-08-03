@@ -1,0 +1,42 @@
+{
+    "version": 2,
+    "beforeBuildTasks": [],
+    "afterBuildTasks": [
+        {
+            "name": "Show Total Size",
+            "command": "\"${CompileToolDir}\\${toolPrefix}size\" \"${OutDir}\\${targetName}.elf\""
+        },
+        {
+            "name": "clean",
+            "command": "cd \"${OutDir}\" && del *._*"
+        }
+    ],
+    "global": {
+        "$float-abi-type": "softfp",
+        "output-debug-info": "enable"
+    },
+    "c/cpp-compiler": {
+        "language-c": "c99",
+        "language-cpp": "c++11",
+        "optimization": "level-debug",
+        "warnings": "all-warnings",
+        "C_FLAGS": [
+            "-ffunction-sections -fdata-sections"
+        ],
+        "CXX_FLAGS": [
+            "-ffunction-sections -fdata-sections"
+        ]
+    },
+    "asm-compiler": {
+        "ASM_FLAGS": [
+            "-ffunction-sections -fdata-sections"
+        ]
+    },
+    "linker": {
+        "LD_FLAGS": [
+            "--specs=nosys.specs",
+            "--specs=nano.specs",
+            "-Wl,--gc-sections"
+        ]
+    }
+}
