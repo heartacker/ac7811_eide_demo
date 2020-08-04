@@ -94,6 +94,28 @@
                     ],
                     "libList": [],
                     "defineList": []
+                },
+                {
+                    "name": "ATCDrivers.ADC",
+                    "incList": [
+                        ".\\dependence\\AC781x_DFP\\ATCDrivers.ADC"
+                    ],
+                    "sourceDirList": [
+                        ".\\dependence\\AC781x_DFP\\ATCDrivers.ADC"
+                    ],
+                    "libList": [],
+                    "defineList": []
+                },
+                {
+                    "name": "ATCDrivers.TIMER",
+                    "incList": [
+                        ".\\dependence\\AC781x_DFP\\ATCDrivers.TIMER"
+                    ],
+                    "sourceDirList": [
+                        ".\\dependence\\AC781x_DFP\\ATCDrivers.TIMER"
+                    ],
+                    "libList": [],
+                    "defineList": []
                 }
             ]
         }
