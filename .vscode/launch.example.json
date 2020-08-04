@@ -12,9 +12,8 @@
             "runToMain": true,
             "svdFile": ".\\pack\\AutoChips\\AC781x_DFP.1.0.9\\SVD\\AC781x.svd",
             "device": "AC7811QBGE",
-            // special for pyocd
             "cmsisPack": "C:\\Keil_v5\\ARM\\PACK\\.Download\\AutoChips.AC781x_DFP.1.0.9.pack",
-            "targetId": "AC7811QBGE",
+            "targetId": "AC7811QBGE"
         }
     ]
 }
