@@ -5,6 +5,7 @@
 #include "ac78xx_adc.h"
 #include "ac78xx_timer.h"
 
+uint32_t cnt = 0;
 int main(int argc, char const *argv[])
 {
     InitDelay();
@@ -17,6 +18,9 @@ int main(int argc, char const *argv[])
     ADC_Init(&adcx, &adcConfig);
     while (1)
     {
-        ;
+        while (cnt--==0)
+        {
+            printf("time\n");
+        }
     }
 }

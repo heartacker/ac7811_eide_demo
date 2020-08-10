@@ -247,7 +247,7 @@
         "bin": ".\\out\\AC5\\ac7811_eide.hex",
         "targetName": "AC7811QBGE",
         "baseAddr": "0x08000000",
-        "speed": "4M",
+        "speed": "20M",
         "config": ".eide/pyocd.yaml"
     }
 }
