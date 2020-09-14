@@ -249,7 +249,7 @@ uint16_t ADC_GetInjectedConversionValue(ADC_Type* ADCx, uint8_t adcInjectedChann
 }
 
 /**
-  * @param[in] ADCx: select the ADC peripheral.
+  * @param[in] ADCx:select the ADC peripheral.
   * @param[in] adcFlag: specifies the flag to clear.
   *     This parameter can be any combination of the following values:
   *     @arg ADC_FLAG_AMO: Analog monitor/watchdog flag

@@ -153,6 +153,12 @@ void ADC_DMACmd(ADC_Type* ADCx, uint8_t state);
 void ADC_SoftwareStartRegularConvCmd(ADC_Type* ADCx, uint8_t state);
 void ADC_SoftwareStartInjectConvCmd(ADC_Type* ADCx, uint8_t state);
 void ADC_Cmd(ADC_Type* ADCx, uint8_t state);
+/**
+ * @brief nihao 
+ * 
+ * @param[in] ADCx: 111
+ * @param[in] adcConfig 222 
+ */
 void ADC_Init(ADC_Type* ADCx, ADC_InitType* adcConfig);
 uint16_t ADC_GetRegularConversionValue(ADC_Type* ADCx);
 uint16_t ADC_GetInjectedConversionValue(ADC_Type* ADCx, uint8_t adcInjectedChannel);

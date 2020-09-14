@@ -10,8 +10,8 @@
                 {
                     "name": "default",
                     "incList": [
-                        ".\\dependence",
-                        ".\\lib\\CMSIS"
+                        ".\\lib\\CMSIS",
+                        ".\\deps"
                     ],
                     "libList": [],
                     "sourceDirList": [],
@@ -35,12 +35,9 @@
                     "name": "toolchain",
                     "incList": [
                         "C:\\Keil_v5\\ARM\\ARMCC\\include",
-                        "C:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
-                        ".\\dependence\\build-in\\toolchain"
+                        "C:\\Keil_v5\\ARM\\ARMCC\\include\\rw"
                     ],
-                    "sourceDirList": [
-                        ".\\dependence\\build-in\\toolchain"
-                    ],
+                    "sourceDirList": [],
                     "libList": [
                         "C:\\Keil_v5\\ARM\\ARMCC\\lib"
                     ],
@@ -54,10 +51,10 @@
                 {
                     "name": "ATCDrivers.UART",
                     "incList": [
-                        ".\\dependence\\AC781x_DFP\\ATCDrivers.UART"
+                        ".\\deps\\AC781x_DFP\\ATCDrivers.UART"
                     ],
                     "sourceDirList": [
-                        ".\\dependence\\AC781x_DFP\\ATCDrivers.UART"
+                        ".\\deps\\AC781x_DFP\\ATCDrivers.UART"
                     ],
                     "libList": [],
                     "defineList": []
@@ -65,10 +62,10 @@
                 {
                     "name": "ATCDrivers.RTC",
                     "incList": [
-                        ".\\dependence\\AC781x_DFP\\ATCDrivers.RTC"
+                        ".\\deps\\AC781x_DFP\\ATCDrivers.RTC"
                     ],
                     "sourceDirList": [
-                        ".\\dependence\\AC781x_DFP\\ATCDrivers.RTC"
+                        ".\\deps\\AC781x_DFP\\ATCDrivers.RTC"
                     ],
                     "libList": [],
                     "defineList": []
@@ -76,10 +73,10 @@
                 {
                     "name": "ATCDrivers.DMA",
                     "incList": [
-                        ".\\dependence\\AC781x_DFP\\ATCDrivers.DMA"
+                        ".\\deps\\AC781x_DFP\\ATCDrivers.DMA"
                     ],
                     "sourceDirList": [
-                        ".\\dependence\\AC781x_DFP\\ATCDrivers.DMA"
+                        ".\\deps\\AC781x_DFP\\ATCDrivers.DMA"
                     ],
                     "libList": [],
                     "defineList": []
@@ -87,10 +84,10 @@
                 {
                     "name": "ATCDrivers.GPIO",
                     "incList": [
-                        ".\\dependence\\AC781x_DFP\\ATCDrivers.GPIO"
+                        ".\\deps\\AC781x_DFP\\ATCDrivers.GPIO"
                     ],
                     "sourceDirList": [
-                        ".\\dependence\\AC781x_DFP\\ATCDrivers.GPIO"
+                        ".\\deps\\AC781x_DFP\\ATCDrivers.GPIO"
                     ],
                     "libList": [],
                     "defineList": []
@@ -98,10 +95,10 @@
                 {
                     "name": "ATCDrivers.ADC",
                     "incList": [
-                        ".\\dependence\\AC781x_DFP\\ATCDrivers.ADC"
+                        ".\\deps\\AC781x_DFP\\ATCDrivers.ADC"
                     ],
                     "sourceDirList": [
-                        ".\\dependence\\AC781x_DFP\\ATCDrivers.ADC"
+                        ".\\deps\\AC781x_DFP\\ATCDrivers.ADC"
                     ],
                     "libList": [],
                     "defineList": []
@@ -109,10 +106,10 @@
                 {
                     "name": "ATCDrivers.TIMER",
                     "incList": [
-                        ".\\dependence\\AC781x_DFP\\ATCDrivers.TIMER"
+                        ".\\deps\\AC781x_DFP\\ATCDrivers.TIMER"
                     ],
                     "sourceDirList": [
-                        ".\\dependence\\AC781x_DFP\\ATCDrivers.TIMER"
+                        ".\\deps\\AC781x_DFP\\ATCDrivers.TIMER"
                     ],
                     "libList": [],
                     "defineList": []
@@ -235,7 +232,7 @@
     },
     "uploader": "pyOCD",
     "srcDirs": [
-        ".\\dependence",
+        ".\\deps",
         ".\\src",
         ".\\Device"
     ],
