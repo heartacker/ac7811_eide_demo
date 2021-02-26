@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "cl.eide",
+        "ms-vscode.cpptools",
+        "maziac.asm-code-lens",
+        "cschlosser.doxdocgen",
+        "ms-vscode.hexeditor",
+        "mateuszchudyk.hexinspector",
+        "keroc.hex-fmt"
+    ]
+}

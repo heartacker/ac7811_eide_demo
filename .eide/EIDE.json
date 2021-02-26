@@ -10,8 +10,7 @@
                 {
                     "name": "default",
                     "incList": [
-                        ".\\lib\\CMSIS",
-                        ".\\deps"
+                        ".\\.eide\\deps"
                     ],
                     "libList": [],
                     "sourceDirList": [],
@@ -27,9 +26,7 @@
                     "incList": [],
                     "libList": [],
                     "sourceDirList": [],
-                    "defineList": [
-                        "DEBUG"
-                    ]
+                    "defineList": []
                 },
                 {
                     "name": "toolchain",
@@ -41,77 +38,6 @@
                     "libList": [
                         "C:\\Keil_v5\\ARM\\ARMCC\\lib"
                     ],
-                    "defineList": []
-                }
-            ]
-        },
-        {
-            "groupName": "AC781x_DFP",
-            "depList": [
-                {
-                    "name": "ATCDrivers.UART",
-                    "incList": [
-                        ".\\deps\\AC781x_DFP\\ATCDrivers.UART"
-                    ],
-                    "sourceDirList": [
-                        ".\\deps\\AC781x_DFP\\ATCDrivers.UART"
-                    ],
-                    "libList": [],
-                    "defineList": []
-                },
-                {
-                    "name": "ATCDrivers.RTC",
-                    "incList": [
-                        ".\\deps\\AC781x_DFP\\ATCDrivers.RTC"
-                    ],
-                    "sourceDirList": [
-                        ".\\deps\\AC781x_DFP\\ATCDrivers.RTC"
-                    ],
-                    "libList": [],
-                    "defineList": []
-                },
-                {
-                    "name": "ATCDrivers.DMA",
-                    "incList": [
-                        ".\\deps\\AC781x_DFP\\ATCDrivers.DMA"
-                    ],
-                    "sourceDirList": [
-                        ".\\deps\\AC781x_DFP\\ATCDrivers.DMA"
-                    ],
-                    "libList": [],
-                    "defineList": []
-                },
-                {
-                    "name": "ATCDrivers.GPIO",
-                    "incList": [
-                        ".\\deps\\AC781x_DFP\\ATCDrivers.GPIO"
-                    ],
-                    "sourceDirList": [
-                        ".\\deps\\AC781x_DFP\\ATCDrivers.GPIO"
-                    ],
-                    "libList": [],
-                    "defineList": []
-                },
-                {
-                    "name": "ATCDrivers.ADC",
-                    "incList": [
-                        ".\\deps\\AC781x_DFP\\ATCDrivers.ADC"
-                    ],
-                    "sourceDirList": [
-                        ".\\deps\\AC781x_DFP\\ATCDrivers.ADC"
-                    ],
-                    "libList": [],
-                    "defineList": []
-                },
-                {
-                    "name": "ATCDrivers.TIMER",
-                    "incList": [
-                        ".\\deps\\AC781x_DFP\\ATCDrivers.TIMER"
-                    ],
-                    "sourceDirList": [
-                        ".\\deps\\AC781x_DFP\\ATCDrivers.TIMER"
-                    ],
-                    "libList": [],
                     "defineList": []
                 }
             ]
@@ -232,19 +158,25 @@
     },
     "uploader": "pyOCD",
     "srcDirs": [
-        ".\\deps",
+        ".\\.eide\\deps",
         ".\\src",
         ".\\Device"
     ],
     "excludeList": [],
     "outDir": ".\\out",
     "deviceName": "AC7811QBGE",
-    "packDir": ".\\pack\\AutoChips\\AC781x_DFP.1.0.9",
+    "packDir": null,
     "uploadConfig": {
-        "bin": ".\\out\\AC5\\ac7811_eide.hex",
+        "bin": ".\\out\\Debug\\ac7811_eide.hex",
         "targetName": "AC7811QBGE",
         "baseAddr": "0x08000000",
         "speed": "20M",
         "config": ".eide/pyocd.yaml"
-    }
+    },
+    "virtualFolder": [],
+    "miscInfo": {
+        "uid": "84d730d82ae9019dc7539a6b0897f364"
+    },
+    "targets": {},
+    "version": "2.0"
 }

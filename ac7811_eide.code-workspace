@@ -8,10 +8,18 @@
         "files.associations": {
             ".eideignore": "ignore"
         },
-        "C_Cpp.default.intelliSenseMode": "msvc-x86",
+        "C_Cpp.default.intelliSenseMode": "gcc-arm",
         "files.autoGuessEncoding": true,
         "C_Cpp.default.cppStandard": "c++14",
-        "C_Cpp.default.cStandard": "c99",
-        "jira-plugin.workingProject": ""
-    }
+        "C_Cpp.default.cStandard": "c99"
+    },
+    "extensions": {
+        "recommendations": [
+            "cl.eide"
+        ]
+    },
+    "recommendations": [
+        "cl.eide",
+        "keroc.hex-fmt"
+    ]
 }
